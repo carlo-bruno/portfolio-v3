@@ -1,0 +1,44 @@
+.Hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #bbb;
+  color: #ffffff;
+
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: top;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/carl-solder-532353-unsplash-min.jpg);
+}
+
+.Hero .title-box {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.Hero h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.3rem;
+  font-size: 3.8rem;
+
+  padding: 0.3em 1.4em;
+  border: 7px solid #ffffff;
+  margin: 0;
+}
+
+.Hero h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.3rem;
+  font-size: 1.9rem;
+  padding-top: 1rem;
+  margin: 0;
+}
