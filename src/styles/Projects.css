@@ -3,3 +3,14 @@
   background-color: #dddddd;
   height: 100vh;
 }
+
+.Projects .container {
+  flex-direction: column;
+}
+
+.Projects .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
