@@ -19,6 +19,15 @@ export default class FeatureCard extends Component {
   };
 
   render() {
+    let {
+      title,
+      description,
+      tech,
+      github,
+      live,
+      image,
+    } = this.props.project;
+
     return (
       <div
         className={`FeatureCard ${
@@ -27,10 +36,26 @@ export default class FeatureCard extends Component {
         onClick={this.flipCard}>
         <div className='whole-card'>
           <div className='card-front'>
-            <img src={this.props.image} alt='card' />
+            <img src={image} alt='card' />
           </div>
           <div className='card-back'>
-            <h3>back</h3>
+            <section className='tech-box'>
+              {
+                // tech here
+              }
+            </section>
+            <section className='title-box'>
+              <h3>{title}</h3>
+              <p>{description}</p>
+            </section>
+            <section className='link-box'>
+              <a href={github} onClick={(e) => e.stopPropagation()}>
+                Github
+              </a>
+              <a href={live} onClick={(e) => e.stopPropagation()}>
+                Live Demo
+              </a>
+            </section>
           </div>
         </div>
       </div>
