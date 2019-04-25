@@ -32,7 +32,7 @@ export default class FeatureCard extends Component {
     let {
       title,
       description,
-      tech,
+      techs,
       builtWith,
       github,
       live,
@@ -53,8 +53,11 @@ export default class FeatureCard extends Component {
       javascript: jsLogo,
     };
 
-    let techLogos = tech.map(
-      (t, i) => logos[t] && <img src={logos[t]} alt={`${t}-logo`} />
+    let techLogos = techs.map(
+      (tech, i) =>
+        logos[tech] && (
+          <img key={i} src={logos[tech]} alt={`${tech}-logo`} />
+        )
     );
 
     return (
