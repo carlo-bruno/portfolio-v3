@@ -2,7 +2,7 @@ export const feature = [
   {
     title: 'HighNote',
     description:
-      'HighNote is an event discovery mobile web app. It gives users readily accessible information for upcoming events in their metro area. It also allows users to store and manage their Artist watchlist.',
+      'HighNote is mobile web app created for people who want to have readily accessible information about music events in their metro area. HighNote also keeps track of their favorite artists\' upcoming events.',
     techs: ['react', 'graphql', 'node'],
     builtWith: ['React.js', 'React Router', 'GraphQL', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Moment.js', 'Songkick API'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-4',
@@ -13,7 +13,7 @@ export const feature = [
   {
     title: 'Citizenly',
     description:
-      'Citizenly is a collaboration project by 4 developers. It collects data for political events in the City of Seattle. It also shows information about officials currenty in office and upcoming elections.',
+      'Citizenly is a collaboration project with three other developers. We are motivated to help people be more involved in their local politics by providing event data, as well as information about their local representatives.',
     techs: ['react', 'node', 'mongo'],
     builtWith: ['React.js', 'React Router', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Moment.js', 'Meetup, Cloudinary and Mapbox API'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-3',
@@ -24,7 +24,7 @@ export const feature = [
   {
     title: 'Pluma',
     description:
-      'Pluma is a full-stack blog site that allows users to publish poems online. The PlumaWriter and PlumaEditor gives users a few tools to help them write their next masterpiece',
+      'Pluma is a full-stack blog site developed for poets to help them write their next masterpiece. In addition to our tools, Pluma also allows users to publish their work online and get feedback from the community.',
     techs: ['postgres', 'node', 'express'],
     builtWith: ['EJS', 'Node.js', 'Express', 'PostgresQL', 'Sequelize', 'DataMuse API', 'Axios' ,'Bcrypt', 'Passport'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-2',
@@ -35,7 +35,7 @@ export const feature = [
   {
     title: 'Tetris',
     description:
-      'A tetris clone built in HTML, CSS, and JavaScript. The tetris board and tetrominoes are drawn using HTML Canvas.',
+      'Relive your awesome childhood playing Tetris! Clear stacks, set new high scores and have fun! The game also features the original sound track for a full nostagia effect.',
     techs: ['html', 'css', 'javascript'],
     builtWith: ['HTML5', 'CSS3', 'JavaScript', 'Canvas API', 'FontAwesome Icons',],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-1',

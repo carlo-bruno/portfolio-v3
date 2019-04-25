@@ -3,7 +3,6 @@ import '../styles/About.css';
 import profile from '../img/profile.jpg';
 
 import * as logos from '../img/logos';
-console.log(typeof logos);
 
 const About = () => {
   let skills = [];
