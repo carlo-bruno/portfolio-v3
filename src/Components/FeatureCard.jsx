@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import '../styles/FeatureCard.css';
 
-import reactLogo from '../img/react.svg';
-import nodeLogo from '../img/nodejs.svg';
-import graphLogo from '../img/graphql.svg';
-import mongoLogo from '../img/mongodb.svg';
-import postgresLogo from '../img/postgresql.svg';
-import exLogo from '../img/express.png';
-import htmlLogo from '../img/html.svg';
-import cssLogo from '../img/css.svg';
-import jsLogo from '../img/js.svg';
+import {
+  reactLogo,
+  nodeLogo,
+  graphqlLogo,
+  mongoLogo,
+  postgresLogo,
+  exLogo,
+  htmlLogo,
+  cssLogo,
+  jsLogo,
+} from '../img/logos';
 
-export default class FeatureCard extends Component {
+class FeatureCard extends Component {
   constructor(props) {
     super(props);
 
@@ -44,7 +46,7 @@ export default class FeatureCard extends Component {
     let logos = {
       react: reactLogo,
       node: nodeLogo,
-      graphql: graphLogo,
+      graphql: graphqlLogo,
       mongo: mongoLogo,
       postgres: postgresLogo,
       express: exLogo,
@@ -92,3 +94,5 @@ export default class FeatureCard extends Component {
     );
   }
 }
+
+export default FeatureCard;
