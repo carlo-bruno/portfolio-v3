@@ -34,7 +34,7 @@
   );
 }
 
-.About img {
+.About .image-box img {
   width: 300px;
   height: 300px;
   transform: scale(1.4);
@@ -42,21 +42,21 @@
 
 .About .skills-box {
   background-color: gray;
-  width: 80%;
-  height: 340px;
+  width: 75%;
+  min-height: 220px;
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-content: center;
 
   padding: 10px;
 }
 
 .About .skills-box img {
   display: block;
-  width: 45px;
-  height: 45px;
-  margin: 25px 35px;
+  width: 55px;
+  height: 55px;
+  margin: 15px 25px;
 }
