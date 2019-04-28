@@ -6,11 +6,22 @@ const Nav = (props) => {
   return (
     <div className='Nav'>
       <Link
+        to='Hero'
+        activeClass='active'
+        spy={true}
+        smooth={true}
+        duration={600}>
+        <div className='node'>
+          <span>Home</span>
+        </div>
+      </Link>
+
+      <Link
         to='About'
         activeClass='active'
         spy={true}
         smooth={true}
-        duration={500}>
+        duration={600}>
         <div className='node'>
           <span>About</span>
         </div>
@@ -21,7 +32,7 @@ const Nav = (props) => {
         activeClass='active'
         spy={true}
         smooth={true}
-        duration={500}>
+        duration={600}>
         <div className='node'>
           <span>Projects</span>
         </div>
@@ -32,7 +43,7 @@ const Nav = (props) => {
         activeClass='active'
         spy={true}
         smooth={true}
-        duration={700}>
+        duration={600}>
         <div className='node'>
           <span>Contact</span>
         </div>

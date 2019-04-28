@@ -16,7 +16,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className='Hero'>
+    <div className='Hero' id='Hero'>
       <div className='title-box'>
         <h1>Carlo Bruno</h1>
         <h2>Full Stack Web Developer</h2>
