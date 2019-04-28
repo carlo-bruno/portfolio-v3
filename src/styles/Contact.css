@@ -1,0 +1,46 @@
+.Contact {
+  height: 100vh;
+  font-size: 1.3rem;
+}
+
+.Contact .container {
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name,
+.contact-email,
+.contact-message {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border: 0;
+  border: 2px solid #333333;
+  margin: 5px 0;
+}
+
+.contact-message {
+  resize: vertical;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+}
+
+.contact-submit {
+  align-self: flex-end;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5rem 1.8rem;
+  border: 2px solid #333333;
+  background-color: #eeeeee;
+  transition: 300ms ease-in-out;
+}
+
+.contact-submit:hover {
+  background-color: #333333;
+  color: #ffffff;
+}

@@ -5,6 +5,7 @@ import Hero from './Pages/Hero';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Nav from './Components/Nav';
+import Contact from './Pages/Contact';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Hero />
           <About />
           <Projects />
+          <Contact />
         </main>
 
         <Nav />
