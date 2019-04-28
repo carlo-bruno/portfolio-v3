@@ -11,7 +11,7 @@ export { default as djangoLogo } from './django.svg';
 export { default as htmlLogo } from './html.svg';
 export { default as cssLogo } from './css.svg';
 export { default as jsLogo } from './js.svg';
-export { default as herokuLogo } from './heroku.svg';
+export { default as herokuLogo } from './heroku.png';
 export { default as gitLogo } from './git.svg';
 export { default as githubLogo } from './github.svg';
 export { default as terminalLogo } from './terminal.svg';

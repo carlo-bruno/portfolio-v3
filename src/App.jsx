@@ -4,14 +4,21 @@ import './App.css';
 import Hero from './Pages/Hero';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
+import Nav from './Components/Nav';
+import Contact from './Pages/Contact';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Hero />
-        <About />
-        <Projects />
+        <main className='main'>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </main>
+
+        <Nav />
       </div>
     );
   }
