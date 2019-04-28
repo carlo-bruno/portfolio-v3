@@ -1,19 +1,44 @@
-import React from 'react'
+import React from 'react';
+import { Link, animateScroll } from 'react-scroll';
+import '../styles/Nav.css';
 
 const Nav = (props) => {
   return (
-    <div className="Nav">
-      <div className="node">
-        <a href="">About me</a>
-      </div>
-      <div className="node">
-        <a href="">Projects</a>
-      </div>
-      <div className="node">
-        <a href="">Contact</a>
-      </div>
-    </div>
-  )
-}
+    <div className='Nav'>
+      <Link
+        to='About'
+        activeClass='active'
+        spy={true}
+        smooth={true}
+        duration={500}>
+        <div className='node'>
+          <span>About</span>
+        </div>
+      </Link>
 
-export default Nav
+      <Link
+        to='Projects'
+        activeClass='active'
+        spy={true}
+        smooth={true}
+        duration={500}>
+        <div className='node'>
+          <span>Projects</span>
+        </div>
+      </Link>
+
+      <Link
+        to='Contact'
+        activeClass='active'
+        spy={true}
+        smooth={true}
+        duration={700}>
+        <div className='node'>
+          <span>Contact</span>
+        </div>
+      </Link>
+    </div>
+  );
+};
+
+export default Nav;
