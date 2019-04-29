@@ -1,6 +1,8 @@
 .Contact {
   height: 100vh;
   font-size: 1.3rem;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 50% 52%, 0 40%);
+  background-color: #dddddd;
 }
 
 .Contact .container {
@@ -10,7 +12,9 @@
 .contact-form {
   width: 500px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact-name,
@@ -20,21 +24,27 @@
   padding: 5px 10px;
   border: 0;
   border: 2px solid #333333;
-  margin: 5px 0;
+  margin: 5px 0 10px;
+}
+
+.contact-name,
+.contact-email {
+  width: 49%;
 }
 
 .contact-message {
   resize: vertical;
   min-width: 100%;
   max-width: 100%;
-  min-height: 100px;
+  min-height: 130px;
 }
 
 .contact-submit {
-  align-self: flex-end;
+  margin: 5px auto;
   font-size: 1.1rem;
   font-weight: 700;
-  padding: 0.5rem 1.8rem;
+  width: 50%;
+  padding: 0.5rem;
   border: 2px solid #333333;
   background-color: #eeeeee;
   transition: 300ms ease-in-out;

@@ -10,6 +10,8 @@ class Contact extends Component {
           <form
             className='contact-form'
             name='contact-form'
+            action='POST'
+            data-netlify='true'
             onSubmit={(e) => e.preventDefault()}>
             <input
               className='contact-name'
@@ -31,7 +33,7 @@ class Contact extends Component {
             <input
               className='contact-submit'
               type='submit'
-              value='Send'
+              value='Send Message'
             />
           </form>
         </div>
