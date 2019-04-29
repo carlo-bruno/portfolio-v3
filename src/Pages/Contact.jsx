@@ -11,8 +11,7 @@ class Contact extends Component {
             className='contact-form'
             name='contact-form'
             action='POST'
-            data-netlify='true'
-            onSubmit={(e) => e.preventDefault()}>
+            data-netlify='true'>
             <input
               className='contact-name'
               type='text'
