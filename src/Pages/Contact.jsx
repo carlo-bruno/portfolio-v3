@@ -4,7 +4,12 @@ import '../styles/Contact.css';
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: '', email: '', message: '' };
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+      thanks: false,
+    };
   }
 
   encode = (data) => {
@@ -26,9 +31,10 @@ class Contact extends Component {
       },
       body: this.encode({ 'form-name': 'contact', ...this.state }),
     })
-      .then((res) => {
-        alert('Success!');
-        console.log(res);
+      .then(() => {
+        this.setState({ thanks: true }, () => {
+          setTimeout(() => this.setState({ thanks: false }), 3000);
+        });
       })
       .catch((error) => alert(error));
 
@@ -60,6 +66,7 @@ class Contact extends Component {
               name='email'
               value={email}
               placeholder='Email'
+              required
               onChange={this.handleChange}
             />
             <textarea
@@ -75,6 +82,15 @@ class Contact extends Component {
               value='Send Message'
             />
           </form>
+          {this.state.thanks && (
+            <div className='thanks'>
+              <h4>Thank you for reaching out! 🚀</h4>
+              <p>
+                I appreciate that you’ve taken the time to write me.
+                I’ll get back to you very soon!
+              </p>
+            </div>
+          )}
         </div>
       </div>
     );
