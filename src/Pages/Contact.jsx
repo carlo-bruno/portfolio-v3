@@ -26,7 +26,10 @@ class Contact extends Component {
       },
       body: this.encode({ 'form-name': 'contact', ...this.state }),
     })
-      .then(() => alert('Success!'))
+      .then((res) => {
+        alert('Success!');
+        console.log(res);
+      })
       .catch((error) => alert(error));
 
     e.preventDefault();
@@ -42,7 +45,7 @@ class Contact extends Component {
         <div className='container'>
           <h2>Contact</h2>
 
-          <form onSubmit={this.handleSubmit}>
+          <form className='contact-form' onSubmit={this.handleSubmit}>
             <input
               className='contact-name'
               type='text'
