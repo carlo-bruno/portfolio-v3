@@ -7,10 +7,11 @@ class Contact extends Component {
       <div className='Contact' id='Contact'>
         <div className='container'>
           <h2>Contact</h2>
+
           <form
             className='contact-form'
             name='contact-form'
-            action='POST'
+            method='POST'
             data-netlify='true'>
             <input
               className='contact-name'
