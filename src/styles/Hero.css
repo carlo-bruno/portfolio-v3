@@ -12,14 +12,19 @@
   /* background-attachment: fixed; */
   background-position: top;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
     ),
     url(../img/carl-solder-532353-unsplash-min.jpg);
 }
 
-.Hero .title-box {
-  margin-top: 20vh;
+.hero-logo {
+  width: 13rem;
+  height: 13rem;
+  margin-top: 11vh;
+}
+
+.title-box {
   text-align: center;
 }
 
@@ -43,7 +48,7 @@
   margin: 0;
 }
 
-.Hero .title-box::after {
+.title-box::after {
   content: '';
   border-top: 2px solid #ffffff;
   width: 100%;
@@ -51,11 +56,11 @@
   margin: 0 auto 1.5rem;
 }
 
-.Hero .social-box {
+.social-box {
   display: flex;
 }
 
-.Hero .social-box a {
+.social-box a {
   color: #ffffff;
   font-size: 1.5rem;
   text-decoration: none;
@@ -68,16 +73,16 @@
   transition: 250ms ease-in-out;
 }
 
-.Hero .social-box a span {
+.social-box a span {
   font-size: 0.9rem;
   color: transparent;
   transition: 300ms ease-in-out;
 }
 
-.Hero .social-box a:hover {
+.social-box a:hover {
   transform: scale(1.25);
 }
 
-.Hero .social-box a:hover span {
+.social-box a:hover span {
   color: inherit;
 }

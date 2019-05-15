@@ -10,7 +10,7 @@
   background-color: #dddddd;
   min-height: 50vh;
   height: 65vh;
-  padding: 0;
+  padding: 5vh 0;
 }
 
 .Contact h2 {
@@ -71,6 +71,7 @@
   align-items: center;
   text-align: center;
   position: absolute;
+  margin-top: 15vh;
 
   background-color: #eeeeee;
   border: 3px solid #cccccc;
