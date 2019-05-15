@@ -84,7 +84,12 @@ class Contact extends Component {
           </form>
           {this.state.thanks && (
             <div className='thanks'>
-              <h4>Thank you for reaching out! 🚀</h4>
+              <h4>
+                Thank you for reaching out!{' '}
+                <span role='img' aria-label='rocket'>
+                  🚀
+                </span>
+              </h4>
               <p>
                 I appreciate that you’ve taken the time to write me.
                 I’ll get back to you very soon!
