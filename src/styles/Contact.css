@@ -1,5 +1,5 @@
 .Contact {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .Contact .container {
@@ -14,11 +14,12 @@
 }
 
 .Contact h2 {
-  margin: 2rem 0 1.5rem;
+  margin: 0 0 1.5rem;
+  font-size: 1.8rem;
 }
 
 .contact-form {
-  width: 500px;
+  max-width: 500px;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
@@ -28,7 +29,7 @@
 .contact-name,
 .contact-email,
 .contact-message {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 5px 10px;
   border: 0;
   border: 2px solid #333333;
@@ -45,6 +46,7 @@
   min-width: 100%;
   max-width: 100%;
   min-height: 130px;
+  max-height: 230px;
 }
 
 .contact-submit {
