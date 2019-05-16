@@ -9,11 +9,11 @@
 }
 
 .Nav .node {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #ffffff;
-  width: 5.8rem;
-  height: 5.8rem;
+  width: 5rem;
+  height: 5rem;
   border: 2px solid #ffffff;
   border-radius: 50%;
   margin: 0 0.8rem;
@@ -40,7 +40,7 @@
 .Nav::after {
   content: '';
   display: block;
-  width: 32rem;
+  width: 28rem;
   height: 20vh;
   border: 3px solid #ffffff99;
   border-radius: 8px;

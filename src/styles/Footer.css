@@ -5,28 +5,30 @@
   flex-direction: column;
 }
 
-.container {
+.Footer .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 0;
 }
 
 .Footer h2 {
   text-align: center;
   margin: 0;
   width: 100%;
+  font-size: 1.6rem;
 }
 
 .Footer h2::after {
   content: '';
   border-top: 2px solid black;
-  width: 75%;
+  width: 60%;
   display: block;
   margin: 0.8rem auto 1.2rem;
 }
 
 .footer-links {
-  width: 80%;
+  width: 65%;
   display: flex;
   justify-content: space-around;
 }
@@ -34,7 +36,7 @@
 .footer-links a {
   width: 6rem;
   height: 4rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: inherit;
   display: flex;
   flex-direction: column;
@@ -46,8 +48,8 @@
 
 .footer-links svg,
 .footer-links path {
-  width: 35px !important;
-  height: 35px !important;
+  width: 28px !important;
+  height: 28px !important;
   fill: inherit;
 }
 
@@ -62,7 +64,20 @@
 footer {
   width: 100%;
   max-width: 1140px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: right;
   margin: auto auto 5vh;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-links a {
+    height: 30px;
+  }
+  .footer-links span {
+    display: none;
+  }
+  footer {
+    margin-bottom: 10vh;
+    text-align: center;
+  }
 }

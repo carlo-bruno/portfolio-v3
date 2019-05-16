@@ -6,7 +6,7 @@
 .FeatureCard {
   width: 480px;
   height: 280px;
-  margin: 15px 0 20px;
+  margin: 10px;
 
   perspective: 1500px;
   position: relative;
@@ -109,4 +109,42 @@
 
 .card-back .link-box a:hover {
   background-color: orange;
+}
+
+@media screen and (max-width: 425px) {
+  .FeatureCard,
+  .FeatureCard .whole-card,
+  .card-front,
+  .card-back {
+    width: 320px;
+    height: 186px;
+  }
+
+  .FeatureCard .card-back h4 {
+    font-size: 1.1rem;
+  }
+
+  .FeatureCard .card-back p {
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+
+  .FeatureCard .card-back em {
+    font-size: 0.6rem;
+    line-height: 1.2;
+  }
+
+  .FeatureCard .tech-box {
+    height: 30px;
+  }
+
+  .FeatureCard .tech-box img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .FeatureCard .link-box a {
+    font-size: 0.8rem;
+    width: 45%;
+  }
 }
