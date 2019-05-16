@@ -48,7 +48,7 @@
   margin: 0;
 }
 
-.title-box::after {
+.Hero .title-box::after {
   content: '';
   border-top: 2px solid #ffffff;
   width: 100%;

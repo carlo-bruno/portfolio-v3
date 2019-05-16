@@ -1,6 +1,8 @@
 .Footer {
   height: 35vh;
   font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -9,8 +11,18 @@
   justify-content: flex-start;
 }
 
-h2 {
+.Footer h2 {
+  text-align: center;
   margin: 0;
+  width: 100%;
+}
+
+.Footer h2::after {
+  content: '';
+  border-top: 2px solid black;
+  width: 75%;
+  display: block;
+  margin: 0.8rem auto 1.2rem;
 }
 
 .footer-links {
@@ -19,7 +31,38 @@ h2 {
   justify-content: space-around;
 }
 
+.footer-links a {
+  width: 6rem;
+  height: 4rem;
+  font-size: 1rem;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+}
+
+.footer-links svg,
+.footer-links path {
+  width: 35px !important;
+  height: 35px !important;
+  fill: inherit;
+}
+
+.footer-links a span {
+  margin-top: 0.5rem;
+}
+
+.footer-links a:hover {
+  transform: scale(1.2);
+}
+
 footer {
+  width: 100%;
+  max-width: 1140px;
   font-size: 1rem;
   text-align: right;
+  margin: auto auto 5vh;
 }
