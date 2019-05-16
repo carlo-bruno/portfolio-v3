@@ -120,22 +120,28 @@
     height: 186px;
   }
 
+  .FeatureCard .card-back {
+    padding: 8px;
+  }
+
   .FeatureCard .card-back h4 {
-    font-size: 1.1rem;
+    display: none;
   }
 
   .FeatureCard .card-back p {
-    font-size: 0.7rem;
+    font-size: 0.82rem;
     line-height: 1.2;
   }
 
   .FeatureCard .card-back em {
-    font-size: 0.6rem;
-    line-height: 1.2;
+    font-size: 0.65rem;
+    line-height: 1.1;
+    margin-top: 3px;
   }
 
   .FeatureCard .tech-box {
     height: 30px;
+    margin-bottom: 0.2rem;
   }
 
   .FeatureCard .tech-box img {
