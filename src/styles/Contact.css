@@ -1,12 +1,20 @@
 .Contact {
-  height: 100vh;
   font-size: 1.3rem;
-  clip-path: polygon(0 0, 100% 0, 100% 40%, 50% 52%, 0 40%);
-  background-color: #dddddd;
 }
 
 .Contact .container {
+  max-width: 100%;
   flex-direction: column;
+  justify-content: flex-start;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 95%, 0 75%);
+  background-color: #dddddd;
+  min-height: 50vh;
+  height: 65vh;
+  padding: 5vh 0;
+}
+
+.Contact h2 {
+  margin: 2rem 0 1.5rem;
 }
 
 .contact-form {
@@ -63,6 +71,7 @@
   align-items: center;
   text-align: center;
   position: absolute;
+  margin-top: 15vh;
 
   background-color: #eeeeee;
   border: 3px solid #cccccc;

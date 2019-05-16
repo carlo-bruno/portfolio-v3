@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Nav from './Components/Nav';
 import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <About />
           <Projects />
           <Contact />
+          <Footer />
         </main>
 
         <Nav />

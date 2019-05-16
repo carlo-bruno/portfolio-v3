@@ -13,10 +13,12 @@ import {
   faGithubAlt,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import logo from '../img/personal-logo.png';
 
 const Hero = () => {
   return (
     <div className='Hero' id='Hero'>
+      <img className='hero-logo' src={logo} alt='logo' />
       <div className='title-box'>
         <h1>Carlo Bruno</h1>
         <h2>Full Stack Web Developer</h2>
