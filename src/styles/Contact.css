@@ -5,7 +5,6 @@
 
 .Contact .container {
   max-width: 100%;
-  flex-direction: column;
   justify-content: flex-start;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 95%, 0 75%);
   background-color: #dddddd;
