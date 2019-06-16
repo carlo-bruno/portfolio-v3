@@ -12,8 +12,8 @@
   /* background-attachment: fixed; */
   background-position: top;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
     ),
     url(../img/carl-solder-532353-unsplash-min.jpg);
 }
