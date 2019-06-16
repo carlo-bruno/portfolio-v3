@@ -4,17 +4,34 @@
 }
 
 .About .text-box {
-  width: 60%;
+  width: 65%;
+  text-align: center;
 }
 
 .About .text-box h2 {
   margin: 0;
   font-size: 1.8rem;
-  text-align: center;
+}
+
+.About .text-box h3 {
+  margin: 0 0 0.8rem;
 }
 
 .About .text-box p {
-  text-align: center;
+  margin: 0 0 0.7rem;
+  font-style: italic;
+}
+
+.About p a {
+  display: inline-block;
+  color: #0088ffe0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.About p a:hover {
+  background: linear-gradient(to top, #0088ff4c 0%, transparent);
+  color: #0088ff;
 }
 
 .About .profile-box {
@@ -65,8 +82,25 @@
 }
 
 @media screen and (max-width: 425px) {
+  .About .text-box {
+    width: 85%;
+  }
+
+  .About .text-box h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .About .text-box p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
   .About .skills-box {
     width: 85%;
+    margin-bottom: 8vh;
   }
   .About .skills-box img {
     width: 35px;

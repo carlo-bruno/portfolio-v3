@@ -49,3 +49,15 @@
   top: 6vh;
   z-index: -1;
 }
+
+@media screen and (max-width: 425px) {
+  .Nav .node {
+    margin: 0;
+  }
+
+  .Nav a.active > .node,
+  .Nav a:hover > .node,
+  .Nav a:active > .node {
+    transform: scale(0.8);
+  }
+}
