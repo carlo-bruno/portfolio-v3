@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import profile from '../img/profile.jpg';
+import { Link } from 'react-scroll';
 
 import * as logos from '../img/logos';
 
@@ -17,11 +18,39 @@ const About = () => {
       <div className='container'>
         <section className='text-box'>
           <h2>About Me</h2>
+          <h3>
+            I am a full-stack web developer with a penchant for
+            remarkable front-end interface and challenging problems. I
+            have a broad experience with various development
+            technologies, and I am currently specializing in
+            JavaScript, React and GraphQL.
+          </h3>
+
           <p>
-            I am a Full-stack Web Developer specializing in
-            Javascript, React and the MERN Stack. Curious, passionate,
-            and driven to excel. I am hungry for knowledge and
-            dedicated to mastery of my skills and tools.
+            Being a musician taught me teamwork, communication and
+            discipline.
+            <br />
+            In writing poetry and songs, I yearned for chaotic
+            creativity and structured elegance.
+            <br />
+            Working with various teams refined my empathy, strategy
+            and problem-solving.
+            <br />
+            Learning programming on my own, I learned patience,
+            perseverance and persistence.
+            <br />
+            And in the classroom, a thinker, leader and community
+            builder.
+          </p>
+          <p>
+            Curious to learn more about me?{' '}
+            <Link
+              to='Contact'
+              spy={true}
+              smooth={true}
+              duration={800}>
+              Feel free to reach out!
+            </Link>
           </p>
         </section>
         <section className='profile-box'>
