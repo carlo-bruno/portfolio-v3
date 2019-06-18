@@ -24,7 +24,7 @@ export const feature = [
   {
     title: 'Pluma',
     description:
-      'Pluma is a full-stack blog site developed for poets to help them write their next masterpiece. In addition to our writing tools, we als provide a platform for users to publish their works. Pluma aims to build and foster a community of writers online.',
+      'Pluma is a full-stack blog site developed for poets to help them write their next masterpiece. In addition to our writing tools, we also provide a platform for users to publish their works. Pluma aims to build and foster a community of writers online.',
     techs: ['postgres', 'node', 'express'],
     builtWith: ['EJS', 'Node.js', 'Express', 'PostgresQL', 'Sequelize', 'DataMuse API', 'Axios' ,'Bcrypt', 'Passport'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-2',
