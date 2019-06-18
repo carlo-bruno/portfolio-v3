@@ -6,10 +6,36 @@ import { Link } from 'react-scroll';
 import * as logos from '../img/logos';
 
 const About = () => {
+  console.log(logos);
   let skills = [];
+  let tech = [
+    'React',
+    'React Router',
+    'GraphQL',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'PostgreSQL',
+    'Sequelize',
+    'Python',
+    'Django',
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Heroku',
+    'Git',
+    'Github',
+    'Command Line',
+    'VS Code',
+  ];
   let i = 0;
   for (let logo in logos) {
-    skills.push(<img key={i} src={logos[logo]} alt={logo} />);
+    skills.push(
+      <div key={i}>
+        <img src={logos[logo]} alt={logo} />
+        <p>{tech[i]}</p>
+      </div>
+    );
     i++;
   }
 
