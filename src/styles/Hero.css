@@ -12,10 +12,10 @@
   /* background-attachment: fixed; */
   background-position: top;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.6) 35%,
+      rgba(0, 0, 0, 0.3)
     ),
-    url(../img/carl-solder-532353-unsplash-min.jpg);
+    url(../img/aperture-vintage-346923-unsplash.jpg);
 }
 
 .hero-logo {

@@ -107,7 +107,7 @@
   margin: 0 5px;
   width: 40%;
   padding: 0.3rem;
-  border: 2px solid #333333;
+  border: 1px solid #333333;
   background-color: #eeeeee;
   transition: 300ms ease-in-out;
 }
