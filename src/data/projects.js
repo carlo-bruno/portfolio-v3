@@ -13,7 +13,7 @@ export const feature = [
   {
     title: 'Citizenly',
     description:
-      'Citizenly is a collaboration project with three other developers. We are motivated to help people be more involved in their local politics by providing event data, as well as information about their local representatives.',
+      'Citizenly is a collaborative group project. We are motivated to empower our users to be more fully involved in their local politics by providing event data, as well as information about their local representatives.',
     techs: ['react', 'node', 'mongo'],
     builtWith: ['React.js', 'React Router', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Moment.js', 'Meetup, Cloudinary and Mapbox API'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-3',
@@ -24,7 +24,7 @@ export const feature = [
   {
     title: 'Pluma',
     description:
-      'Pluma is a full-stack blog site developed for poets to help them write their next masterpiece. In addition to our tools, Pluma also allows users to publish their work online and get feedback from the community.',
+      'Pluma is a full-stack blog site developed for poets to help them write their next masterpiece. In addition to our writing tools, we als provide a platform for users to publish their works. Pluma aims to build and foster a community of writers online.',
     techs: ['postgres', 'node', 'express'],
     builtWith: ['EJS', 'Node.js', 'Express', 'PostgresQL', 'Sequelize', 'DataMuse API', 'Axios' ,'Bcrypt', 'Passport'],
     github: 'https://github.com/carlo-bruno/ga-wdi23-project-2',

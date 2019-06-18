@@ -6,7 +6,6 @@ import { Link } from 'react-scroll';
 import * as logos from '../img/logos';
 
 const About = () => {
-  console.log(logos);
   let skills = [];
   let tech = [
     'React',
